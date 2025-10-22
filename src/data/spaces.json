@@ -6,9 +6,11 @@
     "capacity": "15–25",
     "available": "Evenings 5–9 PM",
     "neighborhood": "Back Bay",
-    "description": "Warm, lively space with vintage posters and large communal tables — ideal for writing groups.",
+    "description": "Rent this vibrant cafe space with large communal tables and inspiring vintage decor. Perfect for: writing workshops, book clubs, creative meetups, and collaborative work sessions. Includes WiFi, coffee service, and flexible seating arrangements.",
     "lat": 42.3494,
-    "lng": -71.0882
+    "lng": -71.0882,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=300&fit=crop",
+    "pricePerHour": 25
   },
   {
     "id": 2,
@@ -17,9 +19,11 @@
     "capacity": "10–20",
     "available": "Morning 7–11 AM, Afternoon 1–5 PM",
     "neighborhood": "Downtown Crossing",
-    "description": "Artisanal coffee shop with minimalist design and quiet atmosphere perfect for focused work sessions.",
+    "description": "Rent this premium coffee space with minimalist design and quiet atmosphere. Perfect for: focused work sessions, client meetings, study groups, and professional networking. Includes premium coffee, WiFi, and noise-controlled environment.",
     "lat": 42.3551,
-    "lng": -71.0656
+    "lng": -71.0656,
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop",
+    "pricePerHour": 20
   },
   {
     "id": 3,
@@ -28,9 +32,11 @@
     "capacity": "20–30",
     "available": "Evenings 6–10 PM, Weekends",
     "neighborhood": "Fenway",
-    "description": "Spacious community room with flexible seating arrangements and excellent acoustics for group discussions.",
+    "description": "Rent this spacious community room with flexible seating and excellent acoustics. Perfect for: group discussions, workshops, community meetings, and educational presentations. Includes AV equipment, kitchen access, and customizable layout options.",
     "lat": 42.3467,
-    "lng": -71.0972
+    "lng": -71.0972,
+    "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400&h=300&fit=crop",
+    "pricePerHour": 40
   },
   {
     "id": 4,
@@ -39,9 +45,11 @@
     "capacity": "12–18",
     "available": "Afternoon 2–6 PM, Evenings 7–9 PM",
     "neighborhood": "Jamaica Plain",
-    "description": "Cozy neighborhood cafe with local art on the walls and comfortable seating for casual meetups.",
+    "description": "Rent this cozy neighborhood cafe with local art displays and comfortable seating. Perfect for: casual meetups, small group discussions, creative brainstorming sessions, and intimate gatherings. Includes local coffee, WiFi, and welcoming atmosphere.",
     "lat": 42.3126,
-    "lng": -71.1103
+    "lng": -71.1103,
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop",
+    "pricePerHour": 18
   },
   {
     "id": 5,
@@ -50,9 +58,11 @@
     "capacity": "25–30",
     "available": "Morning 9–12 PM, Afternoon 1–5 PM",
     "neighborhood": "Cambridge",
-    "description": "Modern library with private meeting rooms and quiet study areas, perfect for educational groups.",
+    "description": "Rent private meeting rooms and quiet study areas in this modern library. Perfect for: educational workshops, tutoring sessions, research groups, and academic presentations. Includes WiFi, research resources, and noise-controlled environment.",
     "lat": 42.3736,
-    "lng": -71.1097
+    "lng": -71.1097,
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
+    "pricePerHour": 15
   },
   {
     "id": 6,
@@ -61,9 +71,11 @@
     "capacity": "15–25",
     "available": "Evenings 6–9 PM, Weekends",
     "neighborhood": "Chinatown",
-    "description": "Cultural arts center with gallery space and flexible seating, ideal for creative workshops and cultural events.",
+    "description": "Rent this cultural arts center with gallery space and flexible seating arrangements. Perfect for: creative workshops, cultural events, art exhibitions, and community celebrations. Includes exhibition walls, AV equipment, and cultural programming support.",
     "lat": 42.3519,
-    "lng": -71.0626
+    "lng": -71.0626,
+    "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop",
+    "pricePerHour": 35
   },
   {
     "id": 7,
@@ -72,9 +84,11 @@
     "capacity": "8–15",
     "available": "Morning 8–11 AM, Afternoon 2–5 PM",
     "neighborhood": "Roslindale",
-    "description": "Intimate French-inspired cafe with charming decor and perfect lighting for photography groups.",
+    "description": "Rent this intimate French-inspired cafe with charming decor and perfect lighting. Perfect for: photography workshops, small art classes, intimate gatherings, and creative photo sessions. Includes natural lighting, artistic ambiance, and French cafe atmosphere.",
     "lat": 42.2848,
-    "lng": -71.1256
+    "lng": -71.1256,
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop",
+    "pricePerHour": 22
   },
   {
     "id": 8,
@@ -83,9 +97,11 @@
     "capacity": "20–30",
     "available": "Evenings 5–9 PM, Weekends",
     "neighborhood": "South Boston",
-    "description": "Contemporary art space with high ceilings and natural light, perfect for maker groups and creative collaborations.",
+    "description": "Rent this contemporary art space with high ceilings and abundant natural light. Perfect for: maker workshops, creative collaborations, art classes, and large-scale projects. Includes high ceilings, natural lighting, and flexible workspace configurations.",
     "lat": 42.3384,
-    "lng": -71.0492
+    "lng": -71.0492,
+    "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop",
+    "pricePerHour": 45
   },
   {
     "id": 9,
@@ -94,9 +110,11 @@
     "capacity": "10–20",
     "available": "Morning 7–11 AM, Afternoon 1–4 PM",
     "neighborhood": "Downtown",
-    "description": "Community-focused coffee shop with large tables and welcoming atmosphere for study groups and networking.",
+    "description": "Rent this community-focused coffee shop with large tables and welcoming atmosphere. Perfect for: study groups, networking events, team meetings, and community gatherings. Includes large tables, WiFi, coffee service, and community-oriented environment.",
     "lat": 42.3584,
-    "lng": -71.0598
+    "lng": -71.0598,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=300&fit=crop",
+    "pricePerHour": 28
   },
   {
     "id": 10,
@@ -105,9 +123,11 @@
     "capacity": "12–20",
     "available": "Evenings 6–9 PM",
     "neighborhood": "Brookline",
-    "description": "Independent bookstore with cozy reading nooks and community event space, perfect for book clubs and literary discussions.",
+    "description": "Rent this independent bookstore with cozy reading nooks and community event space. Perfect for: book clubs, literary discussions, author readings, and literary workshops. Includes curated book selection, cozy atmosphere, and literary community connections.",
     "lat": 42.3476,
-    "lng": -71.1203
+    "lng": -71.1203,
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
+    "pricePerHour": 20
   },
   {
     "id": 11,
@@ -116,9 +136,11 @@
     "capacity": "25–35",
     "available": "Evenings 6–10 PM, Weekends",
     "neighborhood": "Somerville",
-    "description": "Large multipurpose room with kitchen facilities and flexible layout options for community events and workshops.",
+    "description": "Rent this large multipurpose room with kitchen facilities and flexible layout options. Perfect for: community events, workshops, cooking classes, and large group meetings. Includes full kitchen access, AV equipment, and customizable room configurations.",
     "lat": 42.3876,
-    "lng": -71.0995
+    "lng": -71.0995,
+    "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400&h=300&fit=crop",
+    "pricePerHour": 50
   },
   {
     "id": 12,
@@ -127,8 +149,10 @@
     "capacity": "8–15",
     "available": "Morning 7–10 AM, Afternoon 2–5 PM",
     "neighborhood": "Back Bay",
-    "description": "Minimalist coffee shop with clean lines and excellent lighting, ideal for design-focused meetups and presentations.",
+    "description": "Rent this minimalist coffee shop with clean lines and excellent lighting. Perfect for: design-focused meetups, presentations, client meetings, and creative showcases. Includes premium coffee, WiFi, and professional atmosphere ideal for business events.",
     "lat": 42.3503,
-    "lng": -71.0802
+    "lng": -71.0802,
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=300&fit=crop",
+    "pricePerHour": 30
   }
 ]

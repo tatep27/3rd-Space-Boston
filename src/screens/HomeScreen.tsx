@@ -1,37 +1,107 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import MapView from '../components/MapView';
+import SpaceCard from '../components/SpaceCard';
+import SearchBar from '../components/SearchBar';
+import SpaceList from '../components/SpaceList';
+import SpaceModal from '../components/SpaceModal';
+import { getAllSpaces, filterSpaces } from '../services/spacesService';
+import { Space, FilterOptions } from '../types';
 
-const HomeScreen: React.FC = () => {
+const FindASpaceScreen: React.FC = () => {
+  const [spaces, setSpaces] = useState<Space[]>([]);
+  const [filteredSpaces, setFilteredSpaces] = useState<Space[]>([]);
+  const [selectedSpace, setSelectedSpace] = useState<Space | null>(null);
+  const [modalSpace, setModalSpace] = useState<Space | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [filters, setFilters] = useState<FilterOptions>({
+    search: '',
+    capacity: '',
+    timeOfDay: '',
+    type: '',
+  });
+
+  useEffect(() => {
+    const allSpaces = getAllSpaces();
+    setSpaces(allSpaces);
+    setFilteredSpaces(allSpaces);
+  }, []);
+
+  useEffect(() => {
+    const filtered = filterSpaces(spaces, filters);
+    setFilteredSpaces(filtered);
+  }, [spaces, filters]);
+
+  const handleSpaceSelect = (space: Space) => {
+    setSelectedSpace(space);
+    setModalSpace(space);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setModalSpace(null);
+  };
+
   return (
-    <div className="min-h-screen bg-cream">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-gray-800 text-center mb-8">
-          ThirdSpace Boston
-        </h1>
-        <p className="text-lg text-muted-blue text-center mb-12">
-          Find the perfect space for your community gathering
-        </p>
-        
-        <div className="bg-white rounded-lg shadow-soft p-8 max-w-2xl mx-auto">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            Project Setup Complete! 🎉
-          </h2>
-          <p className="text-gray-600 mb-4">
-            The ThirdSpace Boston MVP project has been successfully initialized with:
-          </p>
-          <ul className="list-disc list-inside text-gray-600 space-y-2">
-            <li>React with TypeScript</li>
-            <li>Tailwind CSS for styling</li>
-            <li>React-Leaflet for maps</li>
-            <li>12 sample Boston third spaces</li>
-            <li>Proper project structure</li>
-          </ul>
-          <p className="text-gray-600 mt-4">
-            Ready to start building the interactive map and components!
+    <div style={{ minHeight: '100vh', backgroundColor: '#FEFCF3' }}>
+      <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '20px' }}>
+        {/* Header */}
+        <div style={{ textAlign: 'center', marginBottom: '32px' }}>
+          <h1 style={{ 
+            fontSize: '2.5rem', 
+            fontWeight: 'bold', 
+            color: '#1f2937', 
+            marginBottom: '8px' 
+          }}>
+            Find A Space
+          </h1>
+          <p style={{ 
+            fontSize: '1.125rem', 
+            color: '#6b7280', 
+            marginBottom: '0' 
+          }}>
+            Discover spaces perfect for your community gatherings
           </p>
         </div>
+
+        {/* Search and Filters */}
+        <SearchBar filters={filters} onFiltersChange={setFilters} />
+
+        {/* Main Content */}
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 400px',
+          gap: '24px',
+          alignItems: 'start',
+        }}>
+          {/* Map */}
+          <div>
+            <MapView
+              spaces={filteredSpaces}
+              selectedSpace={selectedSpace}
+              onSpaceSelect={handleSpaceSelect}
+            />
+          </div>
+
+          {/* Space List */}
+          <div>
+            <SpaceList
+              spaces={filteredSpaces}
+              selectedSpace={selectedSpace}
+              onSpaceSelect={handleSpaceSelect}
+            />
+          </div>
+        </div>
+
+        {/* Modal */}
+        <SpaceModal
+          space={modalSpace}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+        />
       </div>
     </div>
   );
 };
 
-export default HomeScreen;
+export default FindASpaceScreen;

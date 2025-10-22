@@ -9,6 +9,49 @@ export interface Space {
   lat: number;
   lng: number;
   image?: string;
+  pricePerHour: number;
+}
+
+export interface Community {
+  id: number;
+  name: string;
+  description: string;
+  type: 'Book Club' | 'Writing Group' | 'Art Workshop' | 'Study Group' | 'Networking' | 'Creative Meetup' | 'Community Event' | 'Workshop';
+  meetingFrequency: string;
+  nextMeeting: string;
+  spaceId: number;
+  spaceName: string;
+  capacity: string;
+  organizer: string;
+  contactInfo: string;
+  lat: number;
+  lng: number;
+  image?: string;
+  memberCount: number;
+  isOpenToNewMembers: boolean;
+}
+
+export interface Event {
+  id: number;
+  title: string;
+  description: string;
+  communityId: number;
+  communityName: string;
+  communityType: string;
+  spaceId: number;
+  spaceName: string;
+  date: string; // ISO date string
+  time: string; // Time string like "6:00 PM"
+  duration: string; // Duration like "2 hours"
+  capacity: string;
+  organizer: string;
+  contactInfo: string;
+  lat: number;
+  lng: number;
+  image?: string;
+  isOpenToPublic: boolean;
+  registrationRequired: boolean;
+  cost: string; // "Free" or "$10" etc.
 }
 
 export interface FilterOptions {
