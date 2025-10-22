@@ -25,7 +25,7 @@ function App() {
             color: '#6b7280', 
             marginBottom: '0' 
           }}>
-            ThirdSpace Boston connects communities to local 3rd spaces, like the neighborhood coffee shop or library, by renting their space during off-hours. Find a space to create a local community, while supporting local businesses. Or join existing communities and find their events!
+            ThirdSpace Boston connects communities to local 3rd spaces, like the neighborhood coffee shop or library, by renting their space during off-hours. Find a space to create a local community, while supporting local businesses. Or, join existing communities and find their events!
           </p>
         </div>
 
