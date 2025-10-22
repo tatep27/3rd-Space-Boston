@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Trident Books & Cafe",
+    "type": "Coffee Shop",
+    "capacity": "15–25",
+    "available": "Evenings 5–9 PM",
+    "neighborhood": "Back Bay",
+    "description": "Warm, lively space with vintage posters and large communal tables — ideal for writing groups.",
+    "lat": 42.3494,
+    "lng": -71.0882
+  },
+  {
+    "id": 2,
+    "name": "George Howell Coffee",
+    "type": "Coffee Shop",
+    "capacity": "10–20",
+    "available": "Morning 7–11 AM, Afternoon 1–5 PM",
+    "neighborhood": "Downtown Crossing",
+    "description": "Artisanal coffee shop with minimalist design and quiet atmosphere perfect for focused work sessions.",
+    "lat": 42.3551,
+    "lng": -71.0656
+  },
+  {
+    "id": 3,
+    "name": "Fenway Community Center",
+    "type": "Community Center",
+    "capacity": "20–30",
+    "available": "Evenings 6–10 PM, Weekends",
+    "neighborhood": "Fenway",
+    "description": "Spacious community room with flexible seating arrangements and excellent acoustics for group discussions.",
+    "lat": 42.3467,
+    "lng": -71.0972
+  },
+  {
+    "id": 4,
+    "name": "JP Licks",
+    "type": "Cafe",
+    "capacity": "12–18",
+    "available": "Afternoon 2–6 PM, Evenings 7–9 PM",
+    "neighborhood": "Jamaica Plain",
+    "description": "Cozy neighborhood cafe with local art on the walls and comfortable seating for casual meetups.",
+    "lat": 42.3126,
+    "lng": -71.1103
+  },
+  {
+    "id": 5,
+    "name": "Cambridge Public Library",
+    "type": "Library",
+    "capacity": "25–30",
+    "available": "Morning 9–12 PM, Afternoon 1–5 PM",
+    "neighborhood": "Cambridge",
+    "description": "Modern library with private meeting rooms and quiet study areas, perfect for educational groups.",
+    "lat": 42.3736,
+    "lng": -71.1097
+  },
+  {
+    "id": 6,
+    "name": "Pao Arts Center",
+    "type": "Arts Center",
+    "capacity": "15–25",
+    "available": "Evenings 6–9 PM, Weekends",
+    "neighborhood": "Chinatown",
+    "description": "Cultural arts center with gallery space and flexible seating, ideal for creative workshops and cultural events.",
+    "lat": 42.3519,
+    "lng": -71.0626
+  },
+  {
+    "id": 7,
+    "name": "Le Petit Space",
+    "type": "Cafe",
+    "capacity": "8–15",
+    "available": "Morning 8–11 AM, Afternoon 2–5 PM",
+    "neighborhood": "Roslindale",
+    "description": "Intimate French-inspired cafe with charming decor and perfect lighting for photography groups.",
+    "lat": 42.2848,
+    "lng": -71.1256
+  },
+  {
+    "id": 8,
+    "name": "Artists for Humanity EpiCenter",
+    "type": "Arts Center",
+    "capacity": "20–30",
+    "available": "Evenings 5–9 PM, Weekends",
+    "neighborhood": "South Boston",
+    "description": "Contemporary art space with high ceilings and natural light, perfect for maker groups and creative collaborations.",
+    "lat": 42.3384,
+    "lng": -71.0492
+  },
+  {
+    "id": 9,
+    "name": "The Well Coffee House",
+    "type": "Coffee Shop",
+    "capacity": "10–20",
+    "available": "Morning 7–11 AM, Afternoon 1–4 PM",
+    "neighborhood": "Downtown",
+    "description": "Community-focused coffee shop with large tables and welcoming atmosphere for study groups and networking.",
+    "lat": 42.3584,
+    "lng": -71.0598
+  },
+  {
+    "id": 10,
+    "name": "Brookline Booksmith",
+    "type": "Bookstore",
+    "capacity": "12–20",
+    "available": "Evenings 6–9 PM",
+    "neighborhood": "Brookline",
+    "description": "Independent bookstore with cozy reading nooks and community event space, perfect for book clubs and literary discussions.",
+    "lat": 42.3476,
+    "lng": -71.1203
+  },
+  {
+    "id": 11,
+    "name": "Somerville Community Center",
+    "type": "Community Center",
+    "capacity": "25–35",
+    "available": "Evenings 6–10 PM, Weekends",
+    "neighborhood": "Somerville",
+    "description": "Large multipurpose room with kitchen facilities and flexible layout options for community events and workshops.",
+    "lat": 42.3876,
+    "lng": -71.0995
+  },
+  {
+    "id": 12,
+    "name": "Blue Bottle Coffee",
+    "type": "Coffee Shop",
+    "capacity": "8–15",
+    "available": "Morning 7–10 AM, Afternoon 2–5 PM",
+    "neighborhood": "Back Bay",
+    "description": "Minimalist coffee shop with clean lines and excellent lighting, ideal for design-focused meetups and presentations.",
+    "lat": 42.3503,
+    "lng": -71.0802
+  }
+]
