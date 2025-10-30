@@ -30,7 +30,7 @@ function App() {
             lineHeight: '1.7',
             fontWeight: '400'
           }}>
-            ThirdSpace Boston makes it easier to create local communities by connecting people to community spaces. Find and rent local third spaces—like your neighborhood coffee shop or library—and gather with like-minded people!
+            ThirdSpace Boston makes it easier to create local communities by connecting people to community spaces. Communities can find and rent local third spaces during their off-hours—like your neighborhood coffee shop or library. Communities can be started by anyone: propose an idea for a new community that others can vouch for--once enough members join in, rent a space and begin gathering!
           </p>
         </div>
 
