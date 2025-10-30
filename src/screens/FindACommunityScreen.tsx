@@ -18,8 +18,10 @@ const FindACommunityScreen: React.FC = () => {
 
   useEffect(() => {
     const allCommunities = getAllCommunities();
-    setCommunities(allCommunities);
-    setFilteredCommunities(allCommunities);
+    // Filter out growing communities, only show existing ones
+    const existingCommunities = allCommunities.filter(c => c.isGrowing !== true);
+    setCommunities(existingCommunities);
+    setFilteredCommunities(existingCommunities);
   }, []);
 
   useEffect(() => {
@@ -39,11 +41,11 @@ const FindACommunityScreen: React.FC = () => {
         {/* Main Content */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: '1fr 400px',
+          gridTemplateColumns: '1fr 1fr',
           gap: '24px',
           alignItems: 'start',
         }}>
-          {/* Map */}
+          {/* Left Column - Map */}
           <div>
             <CommunityMapView
               communities={filteredCommunities}
@@ -52,7 +54,7 @@ const FindACommunityScreen: React.FC = () => {
             />
           </div>
 
-          {/* Community List */}
+          {/* Right Column - Existing Communities List */}
           <div>
             <CommunityList
               communities={filteredCommunities}

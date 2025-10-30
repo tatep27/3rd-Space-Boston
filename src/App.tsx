@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import FindASpaceScreen from './screens/FindASpaceScreen';
 import FindACommunityScreen from './screens/FindACommunityScreen';
-import FindAnEventScreen from './screens/FindAnEventScreen';
+import BuddingCommunitiesScreen from './screens/BuddingCommunitiesScreen';
 import Navigation from './components/Navigation';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<'create' | 'communities' | 'events'>('create');
+  const [currentPage, setCurrentPage] = useState<'create' | 'communities' | 'budding'>('create');
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#FEFCF3' }}>
@@ -16,16 +16,21 @@ function App() {
             fontSize: '3rem', 
             fontWeight: 'bold', 
             color: '#1f2937', 
-            marginBottom: '8px' 
+            marginBottom: '12px',
+            letterSpacing: '-0.02em'
           }}>
             ThirdSpace Boston
           </h1>
           <p style={{ 
-            fontSize: '1.25rem', 
-            color: '#6b7280', 
-            marginBottom: '0' 
+            fontSize: '1.125rem', 
+            color: '#6B7280', 
+            marginBottom: '16px',
+            maxWidth: '800px',
+            margin: '0 auto 16px auto',
+            lineHeight: '1.7',
+            fontWeight: '400'
           }}>
-            ThirdSpace Boston connects communities to local 3rd spaces, like the neighborhood coffee shop or library, by renting their space during off-hours. Find a space to create a local community, while supporting local businesses. Or, join existing communities and find their events!
+            ThirdSpace Boston makes it easier to create local communities by connecting people to community spaces. Find and rent local third spaces—like your neighborhood coffee shop or library—and gather with like-minded people!
           </p>
         </div>
 
@@ -35,7 +40,7 @@ function App() {
         {/* Page Content */}
         {currentPage === 'create' && <FindASpaceScreen />}
         {currentPage === 'communities' && <FindACommunityScreen />}
-        {currentPage === 'events' && <FindAnEventScreen />}
+        {currentPage === 'budding' && <BuddingCommunitiesScreen />}
       </div>
     </div>
   );

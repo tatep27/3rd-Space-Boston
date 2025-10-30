@@ -78,8 +78,27 @@ const CommunityCard: React.FC<CommunityCardProps> = ({ community, isSelected, on
           </div>
         </div>
         <div style={{ textAlign: 'right', marginLeft: '12px' }}>
+          {community.costPerWeek === 0 || !community.costPerWeek ? (
+            <div style={{ 
+              fontSize: '0.875rem', 
+              color: '#10B981',
+              fontWeight: '600',
+              marginBottom: '4px'
+            }}>
+              Free
+            </div>
+          ) : (
+            <div style={{ 
+              fontSize: '0.875rem', 
+              color: '#1F2937',
+              fontWeight: '600',
+              marginBottom: '4px'
+            }}>
+              ${community.costPerWeek}/week
+            </div>
+          )}
           <div style={{ 
-            fontSize: '0.875rem', 
+            fontSize: '0.75rem', 
             color: '#6B7280',
             marginBottom: '4px'
           }}>

@@ -29,6 +29,11 @@ export interface Community {
   image?: string;
   memberCount: number;
   isOpenToNewMembers: boolean;
+  costPerWeek?: number; // Cost per week to join (null or 0 means free)
+  // Growing community fields
+  isGrowing?: boolean;
+  memberGoal?: number;
+  weeklyPledgeCost?: number;
 }
 
 export interface Event {

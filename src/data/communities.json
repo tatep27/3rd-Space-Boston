@@ -15,7 +15,8 @@
     "lng": -71.0882,
     "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
     "memberCount": 18,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 0
   },
   {
     "id": 2,
@@ -33,7 +34,8 @@
     "lng": -71.0656,
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=300&fit=crop",
     "memberCount": 45,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 5
   },
   {
     "id": 3,
@@ -51,7 +53,8 @@
     "lng": -71.0972,
     "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
     "memberCount": 22,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 3
   },
   {
     "id": 4,
@@ -69,7 +72,8 @@
     "lng": -71.1103,
     "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
     "memberCount": 14,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 0
   },
   {
     "id": 5,
@@ -87,7 +91,8 @@
     "lng": -71.1097,
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=300&fit=crop",
     "memberCount": 28,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 0
   },
   {
     "id": 6,
@@ -105,7 +110,8 @@
     "lng": -71.0626,
     "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop",
     "memberCount": 16,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 8
   },
   {
     "id": 7,
@@ -123,7 +129,8 @@
     "lng": -71.1256,
     "image": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=400&h=300&fit=crop",
     "memberCount": 12,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 0
   },
   {
     "id": 8,
@@ -141,7 +148,8 @@
     "lng": -71.0492,
     "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop",
     "memberCount": 24,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 10
   },
   {
     "id": 9,
@@ -159,7 +167,8 @@
     "lng": -71.0598,
     "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=300&fit=crop",
     "memberCount": 32,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 7
   },
   {
     "id": 10,
@@ -177,7 +186,8 @@
     "lng": -71.1203,
     "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
     "memberCount": 19,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 0
   },
   {
     "id": 11,
@@ -195,7 +205,8 @@
     "lng": -71.0995,
     "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
     "memberCount": 26,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 4
   },
   {
     "id": 12,
@@ -213,6 +224,112 @@
     "lng": -71.0802,
     "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
     "memberCount": 21,
-    "isOpenToNewMembers": true
+    "isOpenToNewMembers": true,
+    "costPerWeek": 6
+  },
+  {
+    "id": 13,
+    "name": "Boston Dungeons & Dragons Meetup",
+    "description": "Adventurers, dungeon masters, and new players welcome! Join our weekly D&D group to embark on exciting campaigns and unleash your imagination. We're looking for more members to help us reserve a dedicated game space.",
+    "type": "Creative Meetup",
+    "meetingFrequency": "Weekly",
+    "nextMeeting": "Every Saturday, 3:00 PM",
+    "spaceId": 11,
+    "spaceName": "Somerville Community Center",
+    "capacity": "15–25",
+    "organizer": "Casey Greenwood",
+    "contactInfo": "casey@bostondnd.org",
+    "lat": 42.3876,
+    "lng": -71.0995,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop",
+    "memberCount": 12,
+    "isOpenToNewMembers": true,
+    "isGrowing": true,
+    "memberGoal": 25,
+    "weeklyPledgeCost": 15.00
+  },
+  {
+    "id": 14,
+    "name": "Somerville Running Club",
+    "description": "A community of runners of all levels training together and preparing for races. We need more members to afford a dedicated training space with equipment storage.",
+    "type": "Community Event",
+    "meetingFrequency": "Weekly",
+    "nextMeeting": "Every Monday & Wednesday, 6:00 AM",
+    "spaceId": 5,
+    "spaceName": "Cambridge Public Library",
+    "capacity": "30–40",
+    "organizer": "Ryan Mitchell",
+    "contactInfo": "ryan@somervillerunners.org",
+    "lat": 42.3736,
+    "lng": -71.1097,
+    "image": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=400&h=300&fit=crop",
+    "memberCount": 18,
+    "isOpenToNewMembers": true,
+    "isGrowing": true,
+    "memberGoal": 35,
+    "weeklyPledgeCost": 12.50
+  },
+  {
+    "id": 15,
+    "name": "Allston Music Collective",
+    "description": "Musicians and music lovers coming together to jam, collaborate, and perform. We're fundraising to rent a soundproof practice space.",
+    "type": "Creative Meetup",
+    "meetingFrequency": "Bi-weekly",
+    "nextMeeting": "Every other Friday, 7:00 PM",
+    "spaceId": 9,
+    "spaceName": "The Well Coffee House",
+    "capacity": "10–20",
+    "organizer": "Marcus Johnson",
+    "contactInfo": "marcus@allstonmusic.org",
+    "lat": 42.3584,
+    "lng": -71.0598,
+    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop",
+    "memberCount": 8,
+    "isOpenToNewMembers": true,
+    "isGrowing": true,
+    "memberGoal": 20,
+    "weeklyPledgeCost": 20.00
+  },
+  {
+    "id": 16,
+    "name": "East Boston Parenting Circle",
+    "description": "Support group for new and expecting parents to share experiences, advice, and resources. Looking for members to help us create a comfortable meeting space for families.",
+    "type": "Community Event",
+    "meetingFrequency": "Weekly",
+    "nextMeeting": "Every Thursday, 10:00 AM",
+    "spaceId": 3,
+    "spaceName": "Fenway Community Center",
+    "capacity": "20–30",
+    "organizer": "Lisa Anderson",
+    "contactInfo": "lisa@eastbostonparents.org",
+    "lat": 42.3467,
+    "lng": -71.0972,
+    "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=400&h=300&fit=crop",
+    "memberCount": 15,
+    "isOpenToNewMembers": true,
+    "isGrowing": true,
+    "memberGoal": 30,
+    "weeklyPledgeCost": 10.00
+  },
+  {
+    "id": 17,
+    "name": "Cambridge Chess Society",
+    "description": "Chess enthusiasts of all skill levels meet to play, learn, and compete. We need more members to secure a dedicated space with tournament-quality equipment.",
+    "type": "Study Group",
+    "meetingFrequency": "Weekly",
+    "nextMeeting": "Every Tuesday, 7:00 PM",
+    "spaceId": 2,
+    "spaceName": "George Howell Coffee",
+    "capacity": "12–20",
+    "organizer": "Dr. Kevin Zhang",
+    "contactInfo": "kevin@cambridgechess.org",
+    "lat": 42.3551,
+    "lng": -71.0656,
+    "image": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=400&h=300&fit=crop",
+    "memberCount": 10,
+    "isOpenToNewMembers": true,
+    "isGrowing": true,
+    "memberGoal": 18,
+    "weeklyPledgeCost": 18.00
   }
 ]
